@@ -4,6 +4,7 @@ list2 = [5, 8, 2, 9, 9, 4, 6, 3]
 set1 = set(list1)
 set2 = set(list2)
 intersection_set = set1 & set2
+# Sets remove duplicates and the '&' operator finds the intersection
 
 final_list = list(intersection_set)
 

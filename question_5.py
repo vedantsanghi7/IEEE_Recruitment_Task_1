@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Generates 1000 random numbers from a normal distribution
 data = np.random.randn(1000)
 x_values = range(len(data))
 y_values = data

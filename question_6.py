@@ -13,6 +13,7 @@ cutoff_list = [
     ("Hyderabad", "Bio", 203),
 ]
 
+# Creates empty dictionary and converts the list of tuples into a nested dictionary
 cutoff_dict = {}
 for campus, branch, score in cutoff_list:
     if campus not in cutoff_dict:
@@ -20,8 +21,7 @@ for campus, branch, score in cutoff_list:
     cutoff_dict[campus][branch] = score
 
 print("Original List")
-for item in cutoff_list:
-    print(item)
+print(cutoff_list)
     
 print("\nConverted Dictionary")
 print(cutoff_dict)
